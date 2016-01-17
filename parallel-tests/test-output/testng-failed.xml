@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test runs]" parallel="tests">
+  <parameter name="browser" value="safari"/>
+  <test name="Firefox Test  Login and Post(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="commentTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Firefox Test  Login and Post(failed) -->
+  <test name="Chrome Test Login and Post(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="commentTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Chrome Test Login and Post(failed) -->
+  <test name="IExplore Test Login and Post(failed)" parallel="tests">
+    <parameter name="browser" value="internetExplorer"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="commentTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- IExplore Test Login and Post(failed) -->
+  <test name="Firefox Test Signin and Comment(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="commentMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Firefox Test Signin and Comment(failed) -->
+  <test name="Chrome Test Signin and Comment(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="commentMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Chrome Test Signin and Comment(failed) -->
+  <test name="IExplore Test Signin and Comment(failed)" parallel="tests">
+    <parameter name="browser" value="internetExplorer"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="commentMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- IExplore Test Signin and Comment(failed) -->
+  <test name="Chrome Test Amim(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mytest1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Chrome Test Amim(failed) -->
+  <test name="Firefox Test Amim(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mytest1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Firefox Test Amim(failed) -->
+  <test name="Internet Explorer Amim(failed)" parallel="tests">
+    <parameter name="browser" value="InternetExplorer"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mytest1"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Internet Explorer Amim(failed) -->
+  <test name="Chrome Test Signup(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Chrome Test Signup(failed) -->
+  <test name="Firefox Test Signup(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Firefox Test Signup(failed) -->
+  <test name="IExplore Test Signup(failed)" parallel="tests">
+    <parameter name="browser" value="internetExplorer"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- IExplore Test Signup(failed) -->
+  <test name="Safari Test Signup(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Safari Test Signup(failed) -->
+  <test name="Firefox Test  FeedBackTestCase(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="feedbackTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Firefox Test  FeedBackTestCase(failed) -->
+  <test name="Chrome Test FeedBackTestCase(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="feedbackTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Chrome Test FeedBackTestCase(failed) -->
+  <test name="IExplore Test FeedBackTestCase(failed)" parallel="tests">
+    <parameter name="browser" value="internetExplorer"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="feedbackTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- IExplore Test FeedBackTestCase(failed) -->
+  <test name="Safari Test FeedBackTestCase(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.testcases.CommentTestCaseFarhan">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentTestCaseFarhan -->
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+      <class name="com.testcases.FeedBackTestCase">
+        <methods>
+          <include name="feedbackTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.FeedBackTestCase -->
+      <class name="com.amim.testcases.ParallelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amim.testcases.ParallelTest -->
+      <class name="com.testcases.CommentMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CommentMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Safari Test FeedBackTestCase(failed) -->
+</suite> <!-- Failed suite [Parallel test runs] -->

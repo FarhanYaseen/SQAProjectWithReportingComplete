@@ -1,0 +1,161 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test runs" parallel="tests" thread-count="1">
+
+
+	<test name="Firefox Test  Login and Post">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testcases.CommentTestCaseFarhan"></class>
+		</classes>
+	</test>
+
+	<test name="Chrome Test Login and Post">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.testcases.CommentTestCaseFarhan"></class>
+		</classes>
+	</test>
+
+	<test name="IExplore Test Login and Post">
+		<parameter name="browser" value="internetExplorer" />
+		<classes>
+			<class name="com.testcases.CommentTestCaseFarhan"></class>
+		</classes>
+	</test>
+
+	<test name="Safari Test  Login and Post">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.testcases.CommentTestCaseFarhan"></class>
+		</classes>
+	</test>
+
+
+
+
+	<test name="Firefox Test Signin and Comment">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testcases.CommentMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="Chrome Test Signin and Comment">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.testcases.CommentMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="IExplore Test Signin and Comment">
+		<parameter name="browser" value="internetExplorer" />
+		<classes>
+			<class name="com.testcases.CommentMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="Safari Test Signin and Comment">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.testcases.CommentMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+
+
+
+	<test name="Chrome Test Amim">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.amim.testcases.ParallelTest"></class>
+		</classes>
+	</test>
+
+	<test name="Firefox Test Amim">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.amim.testcases.ParallelTest"></class>
+		</classes>
+	</test>
+
+
+	<test name="Safari Test Amim">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.amim.testcases.ParallelTest"></class>
+		</classes>
+	</test>
+
+	<test name="Internet Explorer Amim">
+		<parameter name="browser" value="InternetExplorer" />
+		<classes>
+			<class name="com.amim.testcases.ParallelTest"></class>
+		</classes>
+	</test>
+
+
+
+
+	<test name="Chrome Test Signup">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.testcases.SignUpMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+
+	<test name="Firefox Test Signup">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testcases.SignUpMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+
+
+	<test name="IExplore Test Signup">
+		<parameter name="browser" value="internetExplorer" />
+		<classes>
+			<class name="com.testcases.SignUpMobileArenaTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="Safari Test Signup">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.testcases.SignUpMobileArenaTestCase"></class>
+		</classes>
+	</test>
+	<test name="Firefox Test  FeedBackTestCase">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.testcases.FeedBackTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="Chrome Test FeedBackTestCase">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.testcases.FeedBackTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="IExplore Test FeedBackTestCase">
+		<parameter name="browser" value="internetExplorer" />
+		<classes>
+			<class name="com.testcases.FeedBackTestCase"></class>
+		</classes>
+	</test>
+
+	<test name="Safari Test FeedBackTestCase">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.testcases.FeedBackTestCase"></class>
+		</classes>
+	</test>
+
+
+
+
+</suite>
+

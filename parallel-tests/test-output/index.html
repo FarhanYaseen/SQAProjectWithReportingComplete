@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Parallel_test_runs">
+              <span class="suite-name border-failed">Parallel test runs</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parallel_test_runs">
+                    <span>D:\parallel-tests\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Parallel_test_runs">
+                    <span class="test-stats">20 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Parallel_test_runs">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Parallel_test_runs">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Parallel_test_runs">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parallel_test_runs">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Parallel_test_runs">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,  16 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods failed suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods failed suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods failed suite-Parallel_test_runs"> (show)</a> <!-- show-methods failed suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content failed suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.SignUpMobileArenaTestCase" hash-for-method="signUpMobileArenaTestCase">signUpMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Parallel_test_runs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods skipped suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods skipped suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods skipped suite-Parallel_test_runs"> (show)</a> <!-- show-methods skipped suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content skipped suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentMobileArenaTestCase" hash-for-method="commentMobileArenaTestCase">commentMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentMobileArenaTestCase" hash-for-method="commentMobileArenaTestCase">commentMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentMobileArenaTestCase" hash-for-method="commentMobileArenaTestCase">commentMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentTestCaseFarhan" hash-for-method="commentTestCase">commentTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentTestCaseFarhan" hash-for-method="commentTestCase">commentTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentTestCaseFarhan" hash-for-method="commentTestCase">commentTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.FeedBackTestCase" hash-for-method="feedbackTestCase">feedbackTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.FeedBackTestCase" hash-for-method="feedbackTestCase">feedbackTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.FeedBackTestCase" hash-for-method="feedbackTestCase">feedbackTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.FeedBackTestCase" hash-for-method="feedbackTestCase">feedbackTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.amim.testcases.ParallelTest" hash-for-method="mytest1">mytest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.amim.testcases.ParallelTest" hash-for-method="mytest1">mytest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.amim.testcases.ParallelTest" hash-for-method="mytest1">mytest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.SignUpMobileArenaTestCase" hash-for-method="signUpMobileArenaTestCase">signUpMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.SignUpMobileArenaTestCase" hash-for-method="signUpMobileArenaTestCase">signUpMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.SignUpMobileArenaTestCase" hash-for-method="signUpMobileArenaTestCase">signUpMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Parallel_test_runs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods passed suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods passed suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods passed suite-Parallel_test_runs"> (show)</a> <!-- show-methods passed suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentMobileArenaTestCase" hash-for-method="commentMobileArenaTestCase">commentMobileArenaTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.testcases.CommentTestCaseFarhan" hash-for-method="commentTestCase">commentTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="com.amim.testcases.ParallelTest" hash-for-method="mytest1">mytest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_test_runs -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Parallel_test_runs" class="panel Parallel_test_runs">
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcases.SignUpMobileArenaTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpMobileArenaTestCase">
+                  </a> <!-- signUpMobileArenaTestCase -->
+                  <span class="method-name">signUpMobileArenaTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;FARHANYASEEN-PC&apos;, ip: &apos;192.168.10.34&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;
+Driver info: driver.version: SafariDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.safari.SafariDriver.getScreenshotAs(SafariDriver.java:91)
+	at com.report.Report.takeScreenShot(Report.java:34)
+	at com.testcases.SignUpMobileArenaTestCase.signUpMobileArenaTestCase(SignUpMobileArenaTestCase.java:101)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: The WebSocket connection has been closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
+	at org.openqa.selenium.safari.WebSocketConnection.checkChannel(WebSocketConnection.java:118)
+	at org.openqa.selenium.safari.WebSocketConnection.send(WebSocketConnection.java:131)
+	at org.openqa.selenium.safari.SafariDriverCommandExecutor.execute(SafariDriverCommandExecutor.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	... 24 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testcases.CommentTestCaseFarhan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentTestCase">
+                  </a> <!-- commentTestCase -->
+                  <span class="method-name">commentTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentTestCase">
+                  </a> <!-- commentTestCase -->
+                  <span class="method-name">commentTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentTestCase">
+                  </a> <!-- commentTestCase -->
+                  <span class="method-name">commentTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-skipped -->
+          <div class="suite-Parallel_test_runs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testcases.SignUpMobileArenaTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpMobileArenaTestCase">
+                  </a> <!-- signUpMobileArenaTestCase -->
+                  <span class="method-name">signUpMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpMobileArenaTestCase">
+                  </a> <!-- signUpMobileArenaTestCase -->
+                  <span class="method-name">signUpMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpMobileArenaTestCase">
+                  </a> <!-- signUpMobileArenaTestCase -->
+                  <span class="method-name">signUpMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-skipped -->
+          <div class="suite-Parallel_test_runs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testcases.FeedBackTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedbackTestCase">
+                  </a> <!-- feedbackTestCase -->
+                  <span class="method-name">feedbackTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedbackTestCase">
+                  </a> <!-- feedbackTestCase -->
+                  <span class="method-name">feedbackTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedbackTestCase">
+                  </a> <!-- feedbackTestCase -->
+                  <span class="method-name">feedbackTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedbackTestCase">
+                  </a> <!-- feedbackTestCase -->
+                  <span class="method-name">feedbackTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-skipped -->
+          <div class="suite-Parallel_test_runs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.amim.testcases.ParallelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mytest1">
+                  </a> <!-- mytest1 -->
+                  <span class="method-name">mytest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mytest1">
+                  </a> <!-- mytest1 -->
+                  <span class="method-name">mytest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mytest1">
+                  </a> <!-- mytest1 -->
+                  <span class="method-name">mytest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-skipped -->
+          <div class="suite-Parallel_test_runs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testcases.CommentMobileArenaTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentMobileArenaTestCase">
+                  </a> <!-- commentMobileArenaTestCase -->
+                  <span class="method-name">commentMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentMobileArenaTestCase">
+                  </a> <!-- commentMobileArenaTestCase -->
+                  <span class="method-name">commentMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentMobileArenaTestCase">
+                  </a> <!-- commentMobileArenaTestCase -->
+                  <span class="method-name">commentMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-skipped -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.CommentTestCaseFarhan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentTestCase">
+                  </a> <!-- commentTestCase -->
+                  <span class="method-name">commentTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amim.testcases.ParallelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mytest1">
+                  </a> <!-- mytest1 -->
+                  <span class="method-name">mytest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.CommentMobileArenaTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentMobileArenaTestCase">
+                  </a> <!-- commentMobileArenaTestCase -->
+                  <span class="method-name">commentMobileArenaTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+        </div> <!-- panel Parallel_test_runs -->
+        <div panel-name="test-xml-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\parallel-tests\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Parallel test runs&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Firefox Test  Login and Post&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentTestCaseFarhan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test  Login and Post --&gt;
+  &lt;test name=&quot;Chrome Test Login and Post&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentTestCaseFarhan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test Login and Post --&gt;
+  &lt;test name=&quot;IExplore Test Login and Post&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;internetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentTestCaseFarhan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IExplore Test Login and Post --&gt;
+  &lt;test name=&quot;Safari Test  Login and Post&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentTestCaseFarhan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari Test  Login and Post --&gt;
+  &lt;test name=&quot;Firefox Test Signin and Comment&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test Signin and Comment --&gt;
+  &lt;test name=&quot;Chrome Test Signin and Comment&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test Signin and Comment --&gt;
+  &lt;test name=&quot;IExplore Test Signin and Comment&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;internetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IExplore Test Signin and Comment --&gt;
+  &lt;test name=&quot;Safari Test Signin and Comment&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.CommentMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari Test Signin and Comment --&gt;
+  &lt;test name=&quot;Chrome Test Amim&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amim.testcases.ParallelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test Amim --&gt;
+  &lt;test name=&quot;Firefox Test Amim&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amim.testcases.ParallelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test Amim --&gt;
+  &lt;test name=&quot;Safari Test Amim&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amim.testcases.ParallelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari Test Amim --&gt;
+  &lt;test name=&quot;Internet Explorer Amim&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;InternetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amim.testcases.ParallelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Internet Explorer Amim --&gt;
+  &lt;test name=&quot;Chrome Test Signup&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.SignUpMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test Signup --&gt;
+  &lt;test name=&quot;Firefox Test Signup&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.SignUpMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test Signup --&gt;
+  &lt;test name=&quot;IExplore Test Signup&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;internetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.SignUpMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IExplore Test Signup --&gt;
+  &lt;test name=&quot;Safari Test Signup&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.SignUpMobileArenaTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari Test Signup --&gt;
+  &lt;test name=&quot;Firefox Test  FeedBackTestCase&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.FeedBackTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test  FeedBackTestCase --&gt;
+  &lt;test name=&quot;Chrome Test FeedBackTestCase&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.FeedBackTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test FeedBackTestCase --&gt;
+  &lt;test name=&quot;IExplore Test FeedBackTestCase&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;internetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.FeedBackTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IExplore Test FeedBackTestCase --&gt;
+  &lt;test name=&quot;Safari Test FeedBackTestCase&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.FeedBackTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari Test FeedBackTestCase --&gt;
+&lt;/suite&gt; &lt;!-- Parallel test runs --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Firefox Test  Login and Post (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome Test Login and Post (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IExplore Test Login and Post (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari Test  Login and Post (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test Signin and Comment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome Test Signin and Comment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IExplore Test Signin and Comment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari Test Signin and Comment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome Test Amim (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test Amim (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari Test Amim (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Internet Explorer Amim (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome Test Signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test Signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IExplore Test Signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari Test Signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test  FeedBackTestCase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome Test FeedBackTestCase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IExplore Test FeedBackTestCase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari Test FeedBackTestCase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_test_runs');
+function tableData_Parallel_test_runs() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'commentMobileArenaTestCase')
+data.setCell(0, 2, 'com.testcases.CommentMobileArenaTestCase')
+data.setCell(0, 3, 137454);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signUpMobileArenaTestCase')
+data.setCell(1, 2, 'com.testcases.SignUpMobileArenaTestCase')
+data.setCell(1, 3, 102504);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'mytest1')
+data.setCell(2, 2, 'com.amim.testcases.ParallelTest')
+data.setCell(2, 3, 43663);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'commentTestCase')
+data.setCell(3, 2, 'com.testcases.CommentTestCaseFarhan')
+data.setCell(3, 3, 27156);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUpMobileArenaTestCase')
+data.setCell(4, 2, 'com.testcases.SignUpMobileArenaTestCase')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'commentTestCase')
+data.setCell(5, 2, 'com.testcases.CommentTestCaseFarhan')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'commentTestCase')
+data.setCell(6, 2, 'com.testcases.CommentTestCaseFarhan')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'commentTestCase')
+data.setCell(7, 2, 'com.testcases.CommentTestCaseFarhan')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'commentMobileArenaTestCase')
+data.setCell(8, 2, 'com.testcases.CommentMobileArenaTestCase')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'commentMobileArenaTestCase')
+data.setCell(9, 2, 'com.testcases.CommentMobileArenaTestCase')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'commentMobileArenaTestCase')
+data.setCell(10, 2, 'com.testcases.CommentMobileArenaTestCase')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'mytest1')
+data.setCell(11, 2, 'com.amim.testcases.ParallelTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'mytest1')
+data.setCell(12, 2, 'com.amim.testcases.ParallelTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'feedbackTestCase')
+data.setCell(13, 2, 'com.testcases.FeedBackTestCase')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'feedbackTestCase')
+data.setCell(14, 2, 'com.testcases.FeedBackTestCase')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'mytest1')
+data.setCell(15, 2, 'com.amim.testcases.ParallelTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'signUpMobileArenaTestCase')
+data.setCell(16, 2, 'com.testcases.SignUpMobileArenaTestCase')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'signUpMobileArenaTestCase')
+data.setCell(17, 2, 'com.testcases.SignUpMobileArenaTestCase')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'feedbackTestCase')
+data.setCell(18, 2, 'com.testcases.FeedBackTestCase')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'feedbackTestCase')
+data.setCell(19, 2, 'com.testcases.FeedBackTestCase')
+data.setCell(19, 3, 0);
+window.suiteTableData['Parallel_test_runs']= { tableData: data, tableDiv: 'times-div-Parallel_test_runs'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Parallel_test_runs">
+              </div> <!-- times-div-Parallel_test_runs -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.CommentTestCaseFarhan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentTestCase</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentTestCase</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(internetExplorer)</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentTestCase</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentTestCase</span>
+                <span class="method-start">1291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28451 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.CommentMobileArenaTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">28464 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentMobileArenaTestCase</span>
+                <span class="method-start">28467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">28482 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentMobileArenaTestCase</span>
+                <span class="method-start">28484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(internetExplorer)</span>
+                <span class="method-start">28497 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentMobileArenaTestCase</span>
+                <span class="method-start">28500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">28508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentMobileArenaTestCase</span>
+                <span class="method-start">28911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166366 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amim.testcases.ParallelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">166384 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mytest1</span>
+                <span class="method-start">166386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">166399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mytest1</span>
+                <span class="method-start">166401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">166411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mytest1</span>
+                <span class="method-start">166898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210562 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(InternetExplorer)</span>
+                <span class="method-start">210577 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mytest1</span>
+                <span class="method-start">210579 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.SignUpMobileArenaTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">210588 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signUpMobileArenaTestCase</span>
+                <span class="method-start">210590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">210598 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signUpMobileArenaTestCase</span>
+                <span class="method-start">210602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(internetExplorer)</span>
+                <span class="method-start">210613 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signUpMobileArenaTestCase</span>
+                <span class="method-start">210614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">210618 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpMobileArenaTestCase</span>
+                <span class="method-start">210987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">313497 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.FeedBackTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">313509 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feedbackTestCase</span>
+                <span class="method-start">313511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">313522 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feedbackTestCase</span>
+                <span class="method-start">313525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(internetExplorer)</span>
+                <span class="method-start">313533 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feedbackTestCase</span>
+                <span class="method-start">313535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">313544 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feedbackTestCase</span>
+                <span class="method-start">323797 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
